@@ -5159,10 +5159,6 @@ Created using IcoMoon - icomoon.io
   width: 180px;
   position: absolute;
   left: 0;
-  -webkit-animation: pulsate 1.6s ease-out;
-          animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
   opacity: 0.0;
   z-index: 99; }
 
@@ -5181,6 +5177,40 @@ Created using IcoMoon - icomoon.io
   transform: scale(1.06, 1.06); }
 
 .cc-profile-image a:hover:before {
+  -webkit-animation: none;
+          animation: none; }
+
+.cc-profilenew-image a {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  opacity: 1; }
+
+.cc-profilenew-image a:before {
+  content: "";
+  border: 0px solid rgba(55, 140, 63, 0.6);
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  display: block;
+  left: 0;
+  opacity: 0.0;
+  z-index: 99; }
+
+.cc-profilenew-image img {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  border: 6px solid transparent;
+  z-index: 9999;
+  transition: all .3s ease-out; }
+
+.cc-profilenew-image a:hover img {
+  transform: scale(1.06, 1.06); }
+
+.cc-profilenew-image a:hover:before {
   -webkit-animation: none;
           animation: none; }
 
